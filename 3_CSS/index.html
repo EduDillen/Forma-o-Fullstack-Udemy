@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!--3: internal CSS-->
+    <style>
+ body{
+    font: 20px arial   ;
+ }
+ p{
+    color: blue;
+ }
+    </style>
+    <link rel="stylesheet" href="/3_CSS/css/style.css">
+    <link rel="stylesheet" href="/3_CSS/css/lists.css">
+    <link rel="stylesheet" href="/3_CSS/css/tytles.css">
+    <!--4: Extermal CSS-->
+</head>
+<body>
+    <!-- 1:Inline CSS -->
+    <h1 style="color: red;">Mudar cor com o inline</h1>
+    <h1>outro título</h1>
+    <!--2: Múltiplas regras-->
+    <h1 style="color: violet; font-size: 40px; border-bottom: 10px solid red ;"> Mudar o tamanho da fonte </h1> <!-- o border substitui o hr do html-->
+    <p>Eu fui estilizado pelo internal</p>
+    <p>E todos os próximos parágrafos também</p>
+    <!--4: External CSS-->
+    <h3>Meu título verde</h3>
+    <!--5: Ordem do CSS--> <!-- O que foi sobreescrito aparece riscado no ispect-->
+    <p style="color:red ;">Ordem do CSS</p>
+    <p>Ordem do CSS 2</p>
+    <!--6: multiplos CSS-->
+    <ul>
+        <li>Banana</li>
+        <li>Maçã</li>
+        <li>Laranja</li>
+    </ul>
+
+    <!--7: Desafio 2-->
+    <h4>Eu sou o título do desafio</h4>
+    
+    <!-- 8: Classes -->
+
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto 2</p>
+    <p class="paragraph">Algum texto 3</p>
+
+    <!-- 9: ID (ID > class > Tag)-->
+    <h1 id="exclusive-title"> Este é um título com id</h1>
+
+    <!-- 10 - multiplas regras, ordem do CSS -->
+    <h2 id="algum-titulo"> Texto 1</h2>
+    <h2 class="titulo"> Texto 2</h2>
+    <h2>Texto 3</h2>
+
+    <!-- 11: cores -->
+    <p class="color-name"> a b c d e f</p>
+
+    <!-- 12: HEX -->
+    <p class="hex">Parágrafo com HEX</p>
+    <p class="hex2">Parágrafo com outro HEX</p>
+
+    <!-- 18: Opacidade Background (Porque quando eu coloco o paragrafo mesmo dentro da div ele não respeita a cor da classe)-->
+    <div class="bg-opacity">
+        <p>Estou aqui!</p> 
+    </div>
+
+    <div class="bg-opacity-2">
+        Estou aqui, quase visivel
+    </div> 
+    
+
+    <!--20: bg image  -->
+    <h1 class="bg-image"> Este título tem uma imagem!</h1>
+
+    <!-- 21: centralizar imagem de fundo -->
+
+    <div class="not-centered-img"></div>
+    <div class="centered-img"></div>
+
+    <!-- 22: Largura e altura -->
+    <div class="height-width"></div>
+    <div class="height-width-2"></div>
+
+    <!--23: Padding -->
+    <div class="without-padding">Este não tem padding</div>
+    <div class="padding">Este tem padding</div>
+
+    <!-- 24: padding individual -->
+    <p class="padding-individual">Esse elemento tem paddings diferentes</p>
+
+    <!-- 25: Shorthand padding -->
+    <p class="shorthand-padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quis veritatis, fugit voluptatum obcaecati nam, doloribus omnis nobis ducimus placeat voluptates ab, possimus impedit repellendus quisquam expedita. Temporibus, eius sapiente?</p>
+    <p class="shorthand-padding-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quis veritatis, fugit voluptatum obcaecati nam, doloribus omnis nobis ducimus placeat voluptates ab, possimus impedit repellendus quisquam expedita. Temporibus, eius sapiente?</p>
+
+    <!-- 26: Padding com width -->
+    <div class="without-border-box">
+        <p>Algum conteúdo</p>
+    </div>
+
+    <div class="border-box">
+        Algum conteúdo 2
+    </div>
+        <!-- Porque quando eu coloco P ele não respeita a cor da div no css-->
+
+    <!-- 27: Border -->
+    <div class="border">Borda</div>
+    <div class="border-2">Borda 2</div>
+
+    <!-- 28: Borda individual -->
+    <p class="border-left">Borda esquerda</p>
+    <p class="border-bottom">Borda inferior</p>
+        <!-- quando eu coloco a classe no paragrafo ele fica com a cor que eu quero -->
+
+    <!-- 29: Borda arredondada -->
+    <div class="rounded-p"> Eu estou arredondado</div>
+    <div class="rounded-p-2"> Eu estou arredondado</div>
+
+    <!-- 30: Margem -->
+    <div class="margin">Eu tenho margem</div>
+    <div class="margin-top">Eu tenho margem no topo</div>
+    <div class="margin-shorthand">Utilizando shorthand</div>
+
+    <!-- 31: box model -->
+    <div class="box-model">
+        <p>tenho todas as propriedades do box model</p>
+    </div>
+    <!-- 32: Desafio 3 -->
+   <div id="box-model">
+    <h2 class="challenge-title">Desafio 3</h2>
+   </div>
+   <!-- 33: Text Align -->
+    <p class="text-aligned">Alinhado a direita</p>
+    <div class="container-center">
+        <h2>Estamos centralizados</h2>
+        <p>Algum texto</p>
+    </div>
+    
+    <!-- 34: Text decoration -->
+    <p class="underline">Eu tenho Underline</p>
+    <p class="line-trough">Eu tenho um risco</p>
+    <a href="#" class="remove-underline">Sem underline</a>
+    
+</body>
+</html>
