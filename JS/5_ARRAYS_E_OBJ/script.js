@@ -24,34 +24,37 @@
 // const allNumbers = numbers.concat(otherNumbers)
 // console.log(allNumbers);
 
-const text = `algum texto`
+// const text = `algum texto`
 
-console.log(text.toUpperCase());
+// console.log(text.toUpperCase());
 
-console.log(typeof text.toLocaleUpperCase);
+// console.log(typeof text.toLocaleUpperCase);
 
-console.log(text.indexOf(`g`));
+// console.log(text.indexOf(`g`));
 
-// 5 - Objetos
-const person = {
-    name: `Eduardo`,
-    age: 22,
-    job: `Dev`
-}
+// // 5 - Objetos
+// const person = {
+//     name: `Eduardo`,
+//     age: 22,
+//     job: `Dev`
+// }
 
-console.log(person.age);
-console.log(person.name.length);
-console.log(typeof person);
+// console.log(person.age);
+// console.log(person.name.length);
+// console.log(typeof person);
 
-// 6 - Criando e deletando propriedades 
+// // 6 - Criando e deletando propriedades 
 
-const car = {
-    engine: 1.0,
-    brand: `Vw`,
-    model: `Up!`,
-    km: 60.000,
-}
+// const car = {
+//     engine: 1.0,
+//     brand: `Vw`,
+//     model: `Up!`,
+//     km: 60.000,
+// }
 
-console.log(car);
+// console.log(car);
 
-car.doors=4
+// car.doors=4
+
+// console.log(car);
+
