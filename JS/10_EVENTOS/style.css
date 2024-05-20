@@ -1,0 +1,9 @@
+body{
+    margin-bottom: 1000px;
+    background-color: #333;
+}
+
+#btn-container{
+    padding: 30px;
+    background-color: green;
+}
