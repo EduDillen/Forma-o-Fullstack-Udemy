@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  padding-bottom: 500px;
+}
+
+h1 {
+  color: red;
+}
+
+/* classes dinamicas */
+.red-title {
+  font-size: 50px;
+            background: conic-gradient(
+                from 0deg,
+                #ff0000, /* vermelho puro */
+                #ff3333, /* vermelho claro 1 */
+                #ff6666, /* vermelho claro 2 */
+                #ff9999, /* vermelho claro 3 */
+                #ffcccc, /* vermelho claro 4 */
+                #ff9999, /* vermelho claro 3 */
+                #ff6666, /* vermelho claro 2 */
+                #ff3333, /* vermelho claro 1 */
+                #ff0000  /* vermelho puro */
+            );
+}
